@@ -1,0 +1,113 @@
+[
+    {
+      "restaurantId": "R001",
+      "name": "The Royal Bengal",
+      "location": "Kolkata",
+      "cuisine": {
+        "cuisineId": 1,
+        "name": "Bengali",
+        "type": "Indian",
+        "description": "Authentic Bengali cuisine featuring traditional dishes like macher jhol, shorshe ilish, and more."
+      }
+    },
+    {
+      "restaurantId": "R002",
+      "name": "Mumbai Spice House",
+      "location": "Mumbai",
+      "cuisine": {
+        "cuisineId": 2,
+        "name": "Maharashtrian",
+        "type": "Indian",
+        "description": "Delicious Maharashtrian food with specialties like vada pav, pav bhaji, and puran poli."
+      }
+    },
+    {
+      "restaurantId": "R003",
+      "name": "South Delights",
+      "location": "Delhi",
+      "cuisine": {
+        "cuisineId": 3,
+        "name": "South Indian",
+        "type": "Indian",
+        "description": "Traditional South Indian dishes including dosas, idlis, and sambar."
+      }
+    },
+    {
+      "restaurantId": "R004",
+      "name": "Spicy Chennai",
+      "location": "Chennai",
+      "cuisine": {
+        "cuisineId": 4,
+        "name": "Chettinad",
+        "type": "Indian",
+        "description": "Spicy and aromatic Chettinad cuisine with a range of curries and rice dishes."
+      }
+    },
+    {
+      "restaurantId": "R005",
+      "name": "Punjabi Haveli",
+      "location": "Amritsar",
+      "cuisine": {
+        "cuisineId": 5,
+        "name": "Punjabi",
+        "type": "Indian",
+        "description": "Hearty Punjabi food with a variety of parathas, butter chicken, and dal makhani."
+      }
+    },
+    {
+      "restaurantId": "R006",
+      "name": "Rajasthani Royal",
+      "location": "Jaipur",
+      "cuisine": {
+        "cuisineId": 6,
+        "name": "Rajasthani",
+        "type": "Indian",
+        "description": "Rich and spicy Rajasthani cuisine including dishes like dal baati churma and laal maas."
+      }
+    },
+    {
+      "restaurantId": "R007",
+      "name": "Goa Coastal Cafe",
+      "location": "Goa",
+      "cuisine": {
+        "cuisineId": 7,
+        "name": "Goan",
+        "type": "Indian",
+        "description": "Seafood delights and Goan specialties like vindaloo, xacuti, and sorpotel."
+      }
+    },
+    {
+      "restaurantId": "R008",
+      "name": "Hyderabad House",
+      "location": "Hyderabad",
+      "cuisine": {
+        "cuisineId": 8,
+        "name": "Hyderabadi",
+        "type": "Indian",
+        "description": "Famous for its Hyderabadi biryani and other traditional dishes like haleem and kebabs."
+      }
+    },
+    {
+      "restaurantId": "R009",
+      "name": "Kashmiri Flavors",
+      "location": "Srinagar",
+      "cuisine": {
+        "cuisineId": 9,
+        "name": "Kashmiri",
+        "type": "Indian",
+        "description": "Kashmiri cuisine with specialties like Rogan Josh, Yakhni, and Gustaba."
+      }
+    },
+    {
+      "restaurantId": "R010",
+      "name": "Kerala Kitchen",
+      "location": "Kochi",
+      "cuisine": {
+        "cuisineId": 10,
+        "name": "Kerala",
+        "type": "Indian",
+        "description": "Delicious Kerala cuisine with dishes like appam, stew, and Kerala sadya."
+      }
+    }
+  ]
+  
