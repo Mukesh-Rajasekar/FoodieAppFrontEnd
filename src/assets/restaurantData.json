@@ -1,113 +1,114 @@
-[
+{
+  "restaurants": [
     {
       "restaurantId": "R001",
-      "name": "The Royal Bengal",
+      "name": "Bengal Spice Bistro",
       "location": "Kolkata",
       "cuisine": {
         "cuisineId": 1,
         "name": "Bengali",
         "type": "Indian",
-        "description": "Authentic Bengali cuisine featuring traditional dishes like macher jhol, shorshe ilish, and more."
+        "description": "Savor authentic Bengali flavors at Bengal Spice Bistro, with traditional dishes like macher jhol and shorshe ilish."
       }
     },
     {
       "restaurantId": "R002",
-      "name": "Mumbai Spice House",
+      "name": "Maharashtra Magic",
       "location": "Mumbai",
       "cuisine": {
         "cuisineId": 2,
         "name": "Maharashtrian",
         "type": "Indian",
-        "description": "Delicious Maharashtrian food with specialties like vada pav, pav bhaji, and puran poli."
+        "description": "Enjoy a taste of Maharashtra with specialties like vada pav and pav bhaji at Maharashtra Magic."
       }
     },
     {
       "restaurantId": "R003",
-      "name": "South Delights",
+      "name": "Dosa Delight",
       "location": "Delhi",
       "cuisine": {
         "cuisineId": 3,
         "name": "South Indian",
         "type": "Indian",
-        "description": "Traditional South Indian dishes including dosas, idlis, and sambar."
+        "description": "Dosa Delight brings you traditional South Indian fare including dosas, idlis, and sambar."
       }
     },
     {
       "restaurantId": "R004",
-      "name": "Spicy Chennai",
+      "name": "Chettinad Charm",
       "location": "Chennai",
       "cuisine": {
         "cuisineId": 4,
         "name": "Chettinad",
         "type": "Indian",
-        "description": "Spicy and aromatic Chettinad cuisine with a range of curries and rice dishes."
+        "description": "Discover the bold flavors of Chettinad cuisine with a variety of curries and rice dishes at Chettinad Charm."
       }
     },
     {
       "restaurantId": "R005",
-      "name": "Punjabi Haveli",
+      "name": "Punjabi Paradise",
       "location": "Amritsar",
       "cuisine": {
         "cuisineId": 5,
         "name": "Punjabi",
         "type": "Indian",
-        "description": "Hearty Punjabi food with a variety of parathas, butter chicken, and dal makhani."
+        "description": "Experience hearty Punjabi meals including parathas, butter chicken, and dal makhani at Punjabi Paradise."
       }
     },
     {
       "restaurantId": "R006",
-      "name": "Rajasthani Royal",
+      "name": "Rajasthan Royalty",
       "location": "Jaipur",
       "cuisine": {
         "cuisineId": 6,
         "name": "Rajasthani",
         "type": "Indian",
-        "description": "Rich and spicy Rajasthani cuisine including dishes like dal baati churma and laal maas."
+        "description": "Enjoy rich and spicy Rajasthani cuisine, featuring dishes like dal baati churma and laal maas at Rajasthan Royalty."
       }
     },
     {
       "restaurantId": "R007",
-      "name": "Goa Coastal Cafe",
+      "name": "Goa Delicacies",
       "location": "Goa",
       "cuisine": {
         "cuisineId": 7,
         "name": "Goan",
         "type": "Indian",
-        "description": "Seafood delights and Goan specialties like vindaloo, xacuti, and sorpotel."
+        "description": "Savor seafood delights and Goan specialties such as vindaloo and xacuti at Goa Delicacies."
       }
     },
     {
       "restaurantId": "R008",
-      "name": "Hyderabad House",
+      "name": "Hyderabad Feast",
       "location": "Hyderabad",
       "cuisine": {
         "cuisineId": 8,
         "name": "Hyderabadi",
         "type": "Indian",
-        "description": "Famous for its Hyderabadi biryani and other traditional dishes like haleem and kebabs."
+        "description": "Famous for its biryani, Hyderabad Feast also offers traditional dishes like haleem and kebabs."
       }
     },
     {
       "restaurantId": "R009",
-      "name": "Kashmiri Flavors",
+      "name": "Kashmiri Cuisine Corner",
       "location": "Srinagar",
       "cuisine": {
         "cuisineId": 9,
         "name": "Kashmiri",
         "type": "Indian",
-        "description": "Kashmiri cuisine with specialties like Rogan Josh, Yakhni, and Gustaba."
+        "description": "Relish Kashmiri specialties such as Rogan Josh and Gustaba at Kashmiri Cuisine Corner."
       }
     },
     {
       "restaurantId": "R010",
-      "name": "Kerala Kitchen",
+      "name": "Kerala Delights",
       "location": "Kochi",
       "cuisine": {
         "cuisineId": 10,
         "name": "Kerala",
         "type": "Indian",
-        "description": "Delicious Kerala cuisine with dishes like appam, stew, and Kerala sadya."
+        "description": "Kerala Delights offers an array of Kerala dishes including appam, stew, and Kerala sadya."
       }
     }
   ]
-  
+}

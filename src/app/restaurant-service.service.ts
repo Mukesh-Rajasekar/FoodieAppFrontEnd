@@ -6,15 +6,20 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class RestaurantServiceService {
-  private data = 'assets/restaurantData.json'
+  private baseUrl = 'http://localhost:3000/restaurants';
 
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) { }
 
+ 
   getRestaurant(): Observable<any[]> {
-    console.log("inside working")
-    console.log(this.http.get<any[]>(this.data));
-    return this.http.get<any[]>(this.data);
+    console.log("Fetching all restaurants");
+    return this.http.get<any[]>(this.baseUrl);
   }
 
-
+ 
+  getRestaurantById(id: string): Observable<any> {
+    const url = `${this.baseUrl}/${id}`;
+    console.log(`Fetching restaurant with ID: ${id}`);
+    return this.http.get<any>(url);
+  }
 }

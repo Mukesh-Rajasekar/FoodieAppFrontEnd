@@ -3,7 +3,7 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DummyComponent } from './dummy/dummy.component';
+
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -16,15 +16,20 @@ import { SignupComponent } from './signup/signup.component';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { RestaurantCardComponent } from './restaurant-card/restaurant-card.component';
 import { RestaurantServiceService } from './restaurant-service.service';
+import { RouterModule} from '@angular/router';
+import { SearchComponent } from './search/search.component';
+import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    DummyComponent,
+    
     SignupComponent,
-    RestaurantCardComponent
+    RestaurantCardComponent,
+    SearchComponent,
+    RestaurantDetailComponent
     
   ],
   imports: [
@@ -35,7 +40,8 @@ import { RestaurantServiceService } from './restaurant-service.service';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    FormsModule
+    FormsModule,
+    RouterModule
     
   ],
   providers: [
