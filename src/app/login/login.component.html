@@ -5,10 +5,10 @@
         <h3 class="text-center mb-4">Login</h3>
         <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
           <div class="form-group mb-3">
-            <label for="userId" class="form-label">User ID</label>
+            <label for="userId" class="form-label">Email</label>
             <input type="text" id="userId" class="form-control" formControlName="userId">
             <div *ngIf="loginForm.get('userId')?.invalid && loginForm.get('userId')?.touched" class="text-danger">
-              User ID is required.
+              Email is required.
             </div>
           </div>
 
