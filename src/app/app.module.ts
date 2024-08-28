@@ -19,7 +19,8 @@ import { RestaurantServiceService } from './restaurant-service.service';
 import { RouterModule} from '@angular/router';
 import { SearchComponent } from './search/search.component';
 import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
-
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail
     SignupComponent,
     RestaurantCardComponent,
     SearchComponent,
-    RestaurantDetailComponent
+    RestaurantDetailComponent,
+    LoginComponent
     
   ],
   imports: [
@@ -41,7 +43,8 @@ import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail
     MatIconModule,
     MatListModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule
     
   ],
   providers: [

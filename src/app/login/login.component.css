@@ -26,3 +26,11 @@
 .text-danger {
   font-size: 0.875rem;
 }
+
+.text-center a {
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
