@@ -2,112 +2,112 @@
   "restaurants": [
     {
       "restaurantId": "R001",
-      "name": "Bengal Spice Bistro",
-      "location": "Kolkata",
+      "name": "Ofen",
+      "location": "Banjara Hills, Hyderabad",
       "cuisine": {
         "cuisineId": 1,
-        "name": "Bengali",
+        "name": "Cafe, Coffee, Sandwich, It...",
         "type": "Indian",
-        "description": "Savor authentic Bengali flavors at Bengal Spice Bistro, with traditional dishes like macher jhol and shorshe ilish."
+        "description": "A cozy cafe offering freshly brewed coffee, handcrafted sandwiches, and light Italian bites, perfect for a quick snack or a relaxed meal."
       }
     },
     {
       "restaurantId": "R002",
-      "name": "Maharashtra Magic",
-      "location": "Mumbai",
+      "name": "One8 Commune",
+      "location": "Jubilee Hills, Hyderabad",
       "cuisine": {
         "cuisineId": 2,
-        "name": "Maharashtrian",
+        "name": "European, Continental, Piz..",
         "type": "Indian",
-        "description": "Enjoy a taste of Maharashtra with specialties like vada pav and pav bhaji at Maharashtra Magic."
+        "description": "Indulge in a fusion of European and Continental cuisines with a touch of Indian flavors, featuring wood-fired pizzas and gourmet dishes."
       }
     },
     {
       "restaurantId": "R003",
-      "name": "Dosa Delight",
-      "location": "Delhi",
+      "name": "Mindsapce Social",
+      "location": "Jubilee Hills, Hyderabad",
       "cuisine": {
         "cuisineId": 3,
-        "name": "South Indian",
+        "name": "Hyderabadi, Kebab, Mo..",
         "type": "Indian",
-        "description": "Dosa Delight brings you traditional South Indian fare including dosas, idlis, and sambar."
+        "description": "Savor authentic Hyderabadi dishes, including succulent kebabs and rich biryanis, complemented by refreshing mocktails."
       }
     },
     {
       "restaurantId": "R004",
-      "name": "Chettinad Charm",
+      "name": "White Hart",
       "location": "Chennai",
       "cuisine": {
         "cuisineId": 4,
-        "name": "Chettinad",
+        "name": "North Indian, Mughlai, Continental, Ita...",
         "type": "Indian",
-        "description": "Discover the bold flavors of Chettinad cuisine with a variety of curries and rice dishes at Chettinad Charm."
+        "description": "A culinary journey through North Indian, Mughlai, and Continental flavors, with an emphasis on aromatic spices and traditional cooking techniques."
       }
     },
     {
       "restaurantId": "R005",
-      "name": "Punjabi Paradise",
-      "location": "Amritsar",
+      "name": "Nayab Cafe",
+      "location": "Hi-tech City",
       "cuisine": {
         "cuisineId": 5,
-        "name": "Punjabi",
+        "name": "Cafe, Coffee, Beverages",
         "type": "Indian",
-        "description": "Experience hearty Punjabi meals including parathas, butter chicken, and dal makhani at Punjabi Paradise."
+        "description": "A modern cafe serving a variety of coffee blends and refreshing beverages, paired with light snacks and desserts for a perfect break."
       }
     },
     {
       "restaurantId": "R006",
-      "name": "Rajasthan Royalty",
-      "location": "Jaipur",
+      "name": "You Mee",
+      "location": "Kukatpally, Hyderabad",
       "cuisine": {
         "cuisineId": 6,
-        "name": "Rajasthani",
+        "name": "Asian, Japanese, Sushi, Chi...",
         "type": "Indian",
-        "description": "Enjoy rich and spicy Rajasthani cuisine, featuring dishes like dal baati churma and laal maas at Rajasthan Royalty."
+        "description": "An Asian culinary experience featuring Japanese sushi, Chinese dim sum, and other delicacies, crafted with authentic ingredients and techniques."
       }
     },
     {
       "restaurantId": "R007",
-      "name": "Goa Delicacies",
-      "location": "Goa",
+      "name": "TGI Fridays",
+      "location": "Nexus Hyderabad, Kukatpally, Hyderabad",
       "cuisine": {
         "cuisineId": 7,
-        "name": "Goan",
+        "name": "American, Burger, Italian, Bev...",
         "type": "Indian",
-        "description": "Savor seafood delights and Goan specialties such as vindaloo and xacuti at Goa Delicacies."
+        "description": "Classic American diner experience with juicy burgers, Italian pastas, and a wide range of beverages in a lively atmosphere."
       }
     },
     {
       "restaurantId": "R008",
-      "name": "Hyderabad Feast",
-      "location": "Hyderabad",
+      "name": "The Punjabis Swag",
+      "location": "Kondapur, Hyderabad",
       "cuisine": {
         "cuisineId": 8,
-        "name": "Hyderabadi",
+        "name": "North Indian, Mughlai",
         "type": "Indian",
-        "description": "Famous for its biryani, Hyderabad Feast also offers traditional dishes like haleem and kebabs."
+        "description": "A tribute to Punjabi cuisine with rich and flavorful dishes, from creamy butter chicken to aromatic biryanis."
       }
     },
     {
       "restaurantId": "R009",
-      "name": "Kashmiri Cuisine Corner",
-      "location": "Srinagar",
+      "name": "Cup Theory",
+      "location": "Madhapur, Hyderabad",
       "cuisine": {
         "cuisineId": 9,
-        "name": "Kashmiri",
+        "name": "Cafe, Continental, Pizza, Burg..",
         "type": "Indian",
-        "description": "Relish Kashmiri specialties such as Rogan Josh and Gustaba at Kashmiri Cuisine Corner."
+        "description": "A trendy cafe offering a mix of continental dishes, artisanal pizzas, and gourmet burgers, perfect for casual dining."
       }
     },
     {
       "restaurantId": "R010",
-      "name": "Kerala Delights",
-      "location": "Kochi",
+      "name": "WOW! Momo",
+      "location": "Moosapet, Hyderabad",
       "cuisine": {
         "cuisineId": 10,
-        "name": "Kerala",
+        "name": "Momos, Fast Food, Beverages, Desserts",
         "type": "Indian",
-        "description": "Kerala Delights offers an array of Kerala dishes including appam, stew, and Kerala sadya."
+        "description": "A fast-food haven for momo lovers, offering a wide variety of stuffed momos, along with quick snacks, beverages, and desserts."
       }
     }
   ]
