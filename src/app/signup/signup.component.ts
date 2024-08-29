@@ -11,7 +11,7 @@ export class SignupComponent {
 
   constructor(private fb: FormBuilder) {
     this.signupForm = this.fb.group({
-      userId: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
+      
       username: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(50)]],
       email: ['', [Validators.required, Validators.email]],
       password: ['', [Validators.required, Validators.minLength(6)]],
@@ -20,6 +20,7 @@ export class SignupComponent {
 
   onSubmit() {
     if (this.signupForm.valid) {
+      console.log("Work");
       console.log('Form Submitted', this.signupForm.value);
       
     }

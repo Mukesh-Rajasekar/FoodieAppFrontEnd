@@ -36,4 +36,6 @@ export class RestaurantCardComponent implements OnInit {
       restaurant.location.toLowerCase().includes(searchTerm.toLowerCase())
     );
   }
+
+  
 }
