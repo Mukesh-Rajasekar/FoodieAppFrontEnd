@@ -2,7 +2,7 @@
 
 
 <div class="filter-container">
-  <label for="location-filter">Filter by Location:</label>
+  
   <select id="location-filter" (change)="filterByLocation($event)">
     <option value="">All Locations</option>
     <option *ngFor="let location of locations" [value]="location">{{ location }}</option>
