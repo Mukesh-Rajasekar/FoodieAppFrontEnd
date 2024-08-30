@@ -10,6 +10,7 @@ import { RestaurantServiceService } from '../restaurant-service.service';
 export class RestaurantCardComponent implements OnInit {
   rData: any[] = [];         
   filteredData: any[] = [];   
+  locations: string[] = []; 
 
   constructor(
     private restaurantData: RestaurantServiceService,  
@@ -17,19 +18,19 @@ export class RestaurantCardComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    
     this.restaurantData.getRestaurant().subscribe(data => {
       this.rData = data;
       this.filteredData = data; 
+      
+      
+      this.locations = [...new Set(data.map(restaurant => restaurant.location))];
     });
   }
 
- 
   viewDetails(id: string): void {
     this.router.navigate(['/restaurant', id]); 
   }
 
-  
   filterData(searchTerm: string): void {
     this.filteredData = this.rData.filter(restaurant =>
       restaurant.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -37,5 +38,16 @@ export class RestaurantCardComponent implements OnInit {
     );
   }
 
-  
+  filterByLocation(event: Event): void {
+    const selectElement = event.target as HTMLSelectElement;
+    const location = selectElement.value;
+    
+    if (location) {
+      this.filteredData = this.rData.filter(restaurant =>
+        restaurant.location === location
+      );
+    } else {
+      this.filteredData = this.rData;
+    }
+  }
 }

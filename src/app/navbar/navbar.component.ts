@@ -17,4 +17,6 @@ export class NavbarComponent {
   navigateToSignup() {
     this.router.navigate(['/signup']);
   }
+
+  
 }

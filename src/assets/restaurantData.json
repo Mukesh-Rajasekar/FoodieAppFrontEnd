@@ -39,7 +39,7 @@
     {
       "restaurantId": "R004",
       "name": "White Hart",
-      "location": "Chennai",
+      "location": "Banjara Hills, Hyderabad",
       "cuisine": {
         "cuisineId": 4,
         "name": "North Indian, Mughlai, Continental, Ita...",
@@ -51,7 +51,7 @@
     {
       "restaurantId": "R005",
       "name": "Nayab Cafe",
-      "location": "Hi-tech City",
+      "location": "Hi-tech City,Hyderbad",
       "cuisine": {
         "cuisineId": 5,
         "name": "Cafe, Coffee, Beverages",
@@ -75,7 +75,7 @@
     {
       "restaurantId": "R007",
       "name": "TGI Fridays",
-      "location": "Nexus Hyderabad, Kukatpally, Hyderabad",
+      "location": "Nexus, Hyderabad",
       "cuisine": {
         "cuisineId": 7,
         "name": "American, Burger, Italian, Bev...",
@@ -87,7 +87,7 @@
     {
       "restaurantId": "R008",
       "name": "The Punjabis Swag",
-      "location": "Kondapur, Hyderabad",
+      "location": "Hi-tech City",
       "cuisine": {
         "cuisineId": 8,
         "name": "North Indian, Mughlai",
@@ -99,7 +99,7 @@
     {
       "restaurantId": "R009",
       "name": "Cup Theory",
-      "location": "Madhapur, Hyderabad",
+      "location": "Moosapet, Hyderabad",
       "cuisine": {
         "cuisineId": 9,
         "name": "Cafe, Continental, Pizza, Burg..",

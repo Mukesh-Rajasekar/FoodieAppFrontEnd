@@ -1,14 +1,21 @@
 <app-search (searchChanged)="filterData($event)"></app-search>
 
+
+<div class="filter-container">
+  <label for="location-filter">Filter by Location:</label>
+  <select id="location-filter" (change)="filterByLocation($event)">
+    <option value="">All Locations</option>
+    <option *ngFor="let location of locations" [value]="location">{{ location }}</option>
+  </select>
+</div>
+
 <div class="card-container">
   <div class="card" *ngFor="let card of filteredData" (click)="viewDetails(card.restaurantId)">
-    
     <img [src]="card.cuisine.imagePath" alt="{{ card.name }}" class="card-image"/>
-    
-    
-    <h4>{{ card.name }}</h4>
-    <p>{{ card.cuisine.name }}</p>
-    <p>{{ card.location }}</p>
+    <div class="card-content">
+      <h4>{{ card.name }}</h4>
+      <p>{{ card.cuisine.name }}</p>
+      <p>{{ card.location }}</p>
+    </div>
   </div>
-  
 </div>

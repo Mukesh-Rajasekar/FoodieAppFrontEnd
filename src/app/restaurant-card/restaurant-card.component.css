@@ -1,14 +1,10 @@
-
-
-
 .card-container {
-  
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
-  background-color: lightblue;
+  margin: 0 60px;
+  background-color: #ffffff;
 }
 
 .card {
@@ -17,12 +13,27 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
-  width: 300px;
-  padding: 20px;
-  text-align: center;
-  border: 2px solid #ddd;
+  width: 28%;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  cursor: pointer; 
 }
 
+.card:last-child {
+  margin-right: 0;
+}
+
+.card-image {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+  height: 40%;
+  text-align: left;
+}
 
 .card:hover {
   transform: translateY(-10px);
@@ -30,18 +41,24 @@
 }
 
 .card h4 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+  font-size: 1.2em;
+  margin-bottom: 5px;
   color: #333;
+  font-weight: bold;
 }
 
-
 .card p {
-  font-size: 1em;
-  margin: 5px 0;
+  font-size: 0.9em;
+  margin: 2px 0;
   color: #666;
 }
 
+@media (max-width: 1024px) {
+  .card {
+    width: calc(50% - 20px);
+    margin-right: 10px;
+  }
+}
 
 @media (max-width: 768px) {
   .card-container {
@@ -50,6 +67,46 @@
   }
   
   .card {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 0;
+  }
+}
+
+.filter-container {
+  margin: 20px 60px;
+  text-align: center;
+}
+
+.filter-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+#location-filter {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+#location-filter:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+    margin: 20px;
+  }
+
+  #location-filter {
     width: 100%;
     max-width: 400px;
   }
