@@ -102,3 +102,17 @@
     margin-right: 0;
   }
 }
+
+.favorite-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(207, 196, 196); /* Default color */
+}
+
+.favorite-button.favorited {
+  color: red; /* Color when favorited */
+}
+
+

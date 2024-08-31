@@ -50,4 +50,11 @@ export class RestaurantCardComponent implements OnInit {
       this.filteredData = this.rData;
     }
   }
+
+
+  toggleFavorite(card: any, event: Event) {
+    event.stopPropagation(); // Prevent click event from triggering card click
+    card.isFavorited = !card.isFavorited;
+  }
+
 }

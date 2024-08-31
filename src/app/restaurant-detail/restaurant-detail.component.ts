@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { RestaurantServiceService } from '../restaurant-service.service';
@@ -19,10 +20,24 @@ export class RestaurantDetailComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id');
     if (id) {
       this.restaurantService.getRestaurantById(id).subscribe(data => {
+        console.log(this.restaurant);
         this.restaurant = data;
       });
     } else {
       console.error('Invalid restaurant ID');
     }
+  }
+
+  addFavRestaurant(){
+    // this.ac.paramMap.subscribe((a) => {
+    //   let empid = a.get("id") ?? 0;
+    //   console.log(empid);
+    //   this.empservice.getOneEmp(+empid).subscribe((data) => {
+    //     this.oneEmployee = data;
+    //      console.log(this.oneEmployee);
+
+    //   })
+    //  })
+    
   }
 }

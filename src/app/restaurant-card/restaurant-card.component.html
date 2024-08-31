@@ -1,14 +1,3 @@
-<app-search (searchChanged)="filterData($event)"></app-search>
-
-
-<div class="filter-container">
-  
-  <select id="location-filter" (change)="filterByLocation($event)">
-    <option value="">All Locations</option>
-    <option *ngFor="let location of locations" [value]="location">{{ location }}</option>
-  </select>
-</div>
-
 <div class="card-container">
   <div class="card" *ngFor="let card of filteredData" (click)="viewDetails(card.restaurantId)">
     <img [src]="card.cuisine.imagePath" alt="{{ card.name }}" class="card-image"/>
@@ -16,6 +5,14 @@
       <h4>{{ card.name }}</h4>
       <p>{{ card.cuisine.name }}</p>
       <p>{{ card.location }}</p>
+
+      <!-- Favorite Button -->
+      <button 
+        class="favorite-button" 
+        [ngClass]="{'favorited': card.isFavorited}" 
+        (click)="toggleFavorite(card, $event)">
+        <mat-icon>favorite</mat-icon>
+      </button>
     </div>
   </div>
 </div>
